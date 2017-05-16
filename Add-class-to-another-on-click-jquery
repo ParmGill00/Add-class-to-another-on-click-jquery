@@ -1,0 +1,14 @@
+
+
+$(".toptab").click(function(){
+
+    $(this).addClass("current");
+    $(this).find("ul").show();
+
+},function(){
+
+    $(this).find("ul").hide();
+    $(this).removeClass("current");
+
+});
+
